@@ -40,7 +40,9 @@ class P4 {
 	public static void main(String[] args) {
 		Sertar sertar1 = new Sertar(10, 20, 30);
 		Sertar sertar2 = new Sertar(15, 25, 35);
-		Birou birou = new Birou(100, 200, 300, sertar1, sertar2);
+		sertar1.tipareste();
+		sertar2.tipareste();
+		Birou birou = new Birou(100, 200, 300, new Sertar(50, 50, 50), new Sertar(60, 60, 60));
 		birou.tipareste();
 	}
 }

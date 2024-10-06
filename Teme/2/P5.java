@@ -36,6 +36,10 @@ class Complex {
 		return new Complex(this.real + newComplex.real, this.imaginar + newComplex.imaginar);
 	}
 
+	public double modul() {
+		return Math.sqrt(real * real + imaginar * imaginar);
+	}
+
 	public static int getNrAfisari() {
 		return nrAfisari;
 	}

@@ -2,8 +2,8 @@
 
 class P2 {
 
-	int myInt;
-	char myChar;
+	private int myInt;
+	private char myChar;
 
 	public static void main(String[] args) {
 		System.out.println(myInt);
