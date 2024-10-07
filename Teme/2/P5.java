@@ -20,23 +20,23 @@ metoda main exemple de utilizare ale metodelor clasei Complex.
 class Complex {
 
 	private static int nrAfisari = 0;
-	double real, imaginar;
+	private double real, imaginar;
 
 	public Complex(double real, double imaginar) {
 		this.real = real;
 		this.imaginar = imaginar;
 	}
 
-	public void afisare() {
+	public void print() {
 		nrAfisari++;
 		System.out.println(real + " + i * " + imaginar);
 	}
 
-	public Complex suma(Complex newComplex) {
+	public Complex add(Complex newComplex) {
 		return new Complex(this.real + newComplex.real, this.imaginar + newComplex.imaginar);
 	}
 
-	public double modul() {
+	public double module() {
 		return Math.sqrt(real * real + imaginar * imaginar);
 	}
 
@@ -45,15 +45,18 @@ class Complex {
 	}
 }
 
-class P5 {
+class ClientComplex {
 
 	public static void main(String[] args) {
 		Complex c1 = new Complex(1, 2);
 		Complex c2 = new Complex(3, 4);
-		Complex c3 = c1.suma(c2);
-		c1.afisare();
-		c2.afisare();
-		c3.afisare();
+		Complex c3 = c1.add(c2);
+		c1.print();
+		c2.print();
+		c3.print();
+
+		System.out.println("Modulul lui c1: " + c1.module());
+		System.out.println("Modulul lui c2: " + c2.module());
 
 		System.out.println("Numarul de afisari: " + Complex.getNrAfisari());
 	}
