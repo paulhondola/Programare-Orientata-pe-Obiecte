@@ -20,9 +20,10 @@ class Remorca {
 	}
 
 	public boolean equals(Object obj) {
-		if (!(obj instanceof Remorca)) return false;
-
-		return this.nrInmatriculare.equals(((Remorca) obj).nrInmatriculare);
+		if (obj instanceof Remorca) return this.nrInmatriculare.equals(
+				((Remorca) obj).nrInmatriculare
+			);
+		return false;
 	}
 
 	public String getNrInmatriculare() {
@@ -69,9 +70,10 @@ class Tir {
 	}
 
 	public boolean equals(Object obj) {
-		if (!(obj instanceof Tir)) return false;
-
-		return this.getMaxCutii() == ((Tir) obj).getMaxCutii();
+		if (obj instanceof Tir) {
+			return this.getMaxCutii() == ((Tir) obj).getMaxCutii();
+		}
+		return false;
 	}
 
 	public String toString() {

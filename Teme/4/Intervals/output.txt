@@ -1,0 +1,5 @@
+Interval [3, 4] has 2 values out of 11 values. Percentage: 18.181818%
+Interval [1, 2] has 6 values out of 11 values. Percentage: 54.545456%
+Interval [3, 4] has 1 values out of 8 values. Percentage: 12.5%
+Interval [1, 2] has 3 values out of 8 values. Percentage: 37.5%
+
