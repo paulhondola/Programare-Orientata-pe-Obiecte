@@ -1,3 +1,5 @@
-run:
-	javac Jucator.java Echipa.java Main.java
+SRC = $(wildcard *.java)
+all: $(SRC)
+	clear
+	javac $(SRC)
 	java Main
