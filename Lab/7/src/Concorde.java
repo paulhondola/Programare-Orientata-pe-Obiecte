@@ -1,14 +1,14 @@
-class Concorde extends PassagerPlane {
+class Concorde extends PassengerPlane {
 
-	public Concorde(String planeID, int totalEnginePower, int maxPassagers) {
-		super(planeID, totalEnginePower, maxPassagers);
+	public Concorde(String planeID, int totalEnginePower, int maxPassengers) {
+		super(planeID, totalEnginePower, maxPassengers);
 	}
 
 	public void goSubsonic() {
-		System.out.println(planeID + " - Supersonic mode deactivated");
+		System.out.println(getPlaneID() + " - Supersonic mode deactivated");
 	}
 
 	public void goSupersonic() {
-		System.out.println(planeID + " - Supersonic mode activated");
+		System.out.println(getPlaneID() + " - Supersonic mode activated");
 	}
 }

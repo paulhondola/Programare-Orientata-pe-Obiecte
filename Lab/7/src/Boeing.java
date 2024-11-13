@@ -1,10 +1,6 @@
-class Boeing extends PassagerPlane {
+class Boeing extends PassengerPlane {
 
-	public Boeing(String planeID, int totalEnginePower, int maxPassagers) {
-		super(planeID, totalEnginePower, maxPassagers);
-	}
-
-	public void fly() {
-		System.out.println("Boeing is flying");
+	public Boeing(String planeID, int totalEnginePower, int maxPassengers) {
+		super(planeID, totalEnginePower, maxPassengers);
 	}
 }

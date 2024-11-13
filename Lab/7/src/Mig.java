@@ -5,10 +5,10 @@ class Mig extends FighterPlane {
 	}
 
 	public void highSpeedGeometry() {
-		System.out.println(planeID + " - High speed geometry selected");
+		System.out.println(getPlaneID() + " - High speed geometry selected");
 	}
 
 	public void normalGeometry() {
-		System.out.println(planeID + " - Normal geometry selected");
+		System.out.println(getPlaneID( )+ " - Normal geometry selected");
 	}
 }

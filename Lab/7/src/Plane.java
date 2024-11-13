@@ -1,8 +1,8 @@
 class Plane {
 
 	// Attributes
-	protected String planeID;
-	protected int totalEnginePower;
+	private String planeID;
+	private int totalEnginePower;
 
 	// Constructor
 	public Plane(String planeID, int totalEnginePower) {

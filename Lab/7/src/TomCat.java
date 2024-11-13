@@ -6,7 +6,7 @@ class TomCat extends FighterPlane {
 
 	public void refuel() {
 		System.out.println(
-			planeID +
+			getPlaneID() +
 			" - Initiating refueling procedure - Locating refueller - Catching up - Refueling - Refueling complete"
 		);
 	}
