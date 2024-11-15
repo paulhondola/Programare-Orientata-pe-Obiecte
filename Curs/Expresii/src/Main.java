@@ -3,9 +3,11 @@ class Main {
         // (1 + x*x)
 
         Expresie x = new Suma(new Constanta(1), new Inmultire(new Variabila(), new Variabila()));
-        System.out.println(x);
-        System.out.println(x.derivata());
-        System.out.println(x.derivata().derivata());
+        Expresie deriv1 = x.derivata();
+        Expresie deriv2 = deriv1.derivata();
 
+        System.out.println(x);
+        System.out.println(deriv1);
+        System.out.println(deriv2);
     }
 }
