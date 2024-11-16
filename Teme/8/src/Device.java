@@ -1,9 +1,9 @@
-class Device {
+abstract class Device {
 
     private String information;
 
     public Device() {
-        information = "";
+        information = "No information on this device";
     }
     public Device(String information) {
         this.information = information;

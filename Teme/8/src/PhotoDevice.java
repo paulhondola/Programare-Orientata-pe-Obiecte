@@ -3,6 +3,9 @@ class PhotoDevice extends Device {
     public PhotoDevice(String information) {
         super(information);
     }
+    public PhotoDevice(){
+        super();
+    }
 
     public void takePicture() {
         System.out.println("TakePicture...");
