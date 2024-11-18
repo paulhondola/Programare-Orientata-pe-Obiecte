@@ -23,4 +23,8 @@ public class GreutateMultipla extends Greutate{
         }
         return numarGreutati;
     }
+
+    public void setGreutateAtIndex(Greutate g, int index){
+        greutati[index] = g;
+    }
 }
