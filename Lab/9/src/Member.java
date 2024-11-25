@@ -14,4 +14,8 @@ public abstract class Member {
     public int getAge() {
         return age;
     }
+
+    public String toString(){
+        return "Name: " + name + " - Age: " + age;
+    }
 }

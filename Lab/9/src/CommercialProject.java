@@ -5,7 +5,7 @@ public class CommercialProject extends Project{
     private int teams;
 
     public CommercialProject(String title, String objective, long funds, String deadline, int teams){
-        super(title, objective, MAX_MEMBERS, funds);
+        super(title, objective, funds);
         this.deadline = deadline;
         this.teams = teams;
     }
@@ -18,5 +18,9 @@ public class CommercialProject extends Project{
 
     public double getRisk(){
         return (double) teams * 3 / getMemberCount() / (getFunds() - marketingFunds);
+    }
+
+    public String toString(){
+        return super.toString() + "\nDeadline: " + deadline + "\nMarketing Funds: " + marketingFunds + "\nTeams: " + teams;
     }
 }
