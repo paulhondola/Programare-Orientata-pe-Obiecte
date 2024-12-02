@@ -1,0 +1,3 @@
+class Corner extends Exception{
+
+}

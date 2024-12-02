@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="770c53d7-a837-42b9-97f9-114b431680e1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    <list default="true" id="c2f1be49-1706-41ca-aada-a189da55ebea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../9/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lectia8.pdf" beforeDir="false" />
     </list>
@@ -22,30 +19,19 @@
     "assignee": "paulhondola"
   }
 }]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/paulhondola/Programare-Orientata-pe-Obiecte.git",
-    "accountId": "776e4327-d64b-4416-a18b-5f4798ac267c"
-  }
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
 }]]></component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2otUBF3HM2x5wUHVL2MI2q4WWQQ" />
+  <component name="ProjectId" id="2pUgDVuQG5lcsrhHMzB2yeGAEdd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Joc.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/paulhondola/Faculta/Programare-Orientata-pe-Obiecte/Lab/10",
-    "onboarding.tips.debug.path": "/Users/paulhondola/Faculta/Programare-Orientata-pe-Obiecte/Lab/10/src/Main.java"
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -58,14 +44,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="770c53d7-a837-42b9-97f9-114b431680e1" name="Changes" comment="" />
-      <created>1731688227477</created>
+      <changelist id="c2f1be49-1706-41ca-aada-a189da55ebea" name="Changes" comment="" />
+      <created>1732825948793</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1731688227477</updated>
-      <workItem from="1731688228527" duration="1000" />
-      <workItem from="1733154174755" duration="38000" />
-      <workItem from="1733154247294" duration="12000" />
+      <updated>1732825948793</updated>
+      <workItem from="1732825949997" duration="2000" />
     </task>
     <servers />
   </component>

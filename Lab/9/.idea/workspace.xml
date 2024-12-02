@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c72b54f3-bf93-4847-82a7-873f143583b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommercialProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommercialProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InvestmentCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InvestmentCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MilitaryProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MilitaryProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OpenSourceProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpenSourceProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectia8.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +78,7 @@
       <workItem from="1731688223518" duration="1000" />
       <workItem from="1732543849178" duration="4938000" />
       <workItem from="1732555184109" duration="2321000" />
+      <workItem from="1732810811677" duration="145000" />
     </task>
     <servers />
   </component>
