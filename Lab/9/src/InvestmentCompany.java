@@ -1,28 +1,17 @@
-public class InvestmentCompany {
-    private Project[] projects;
-    private int projectsCount;
+import java.util.LinkedList;
 
-    public InvestmentCompany(){
-        projects = new Project[100];
-        projectsCount = 0;
-    }
+public class InvestmentCompany {
+    private LinkedList<Project> projects = new LinkedList<>();
 
     public void addProject(Project p){
-        if(projectsCount >= projects.length){
-            Project[] newProjects = new Project[projects.length * 2];
-            for(int i = 0; i < projectsCount; i++){
-                newProjects[i] = projects[i];
-            }
-            projects = newProjects;
-        }
-        projects[projectsCount++] = p;
+        projects.add(p);
     }
 
     public Project getBestInvestment(){
-        Project best = projects[0];
-        for(int i = 1; i < projectsCount; i++){
-            if(projects[i].getRisk() < best.getRisk()){
-                best = projects[i];
+        Project best = projects.get(0);
+        for(Project p : projects){
+            if(p.getRisk() > best.getRisk()){
+                best = p;
             }
         }
         return best;

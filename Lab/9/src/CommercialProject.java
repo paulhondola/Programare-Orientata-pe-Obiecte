@@ -10,16 +10,19 @@ public class CommercialProject extends Project{
         this.teams = teams;
     }
 
+    @Override
     public void addMember(Member m){
        if(getMemberCount() < MAX_MEMBERS){
            super.addMember(m);
        }
     }
 
+    @Override
     public double getRisk(){
         return (double) teams * 3 / getMemberCount() / (getFunds() - marketingFunds);
     }
 
+    @Override
     public String toString(){
         return super.toString() + "\nDeadline: " + deadline + "\nMarketing Funds: " + marketingFunds + "\nTeams: " + teams;
     }

@@ -6,10 +6,12 @@ public class OpenSourceProject extends Project {
         this.mailingList = mailingList;
     }
 
+    @Override
     public double getRisk() {
         return (double) getMemberCount() / getFunds();
     }
 
+    @Override
     public String toString() {
         return super.toString() + "\nMailing List: " + mailingList;
     }
