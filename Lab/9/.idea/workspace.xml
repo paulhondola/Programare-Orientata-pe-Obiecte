@@ -4,65 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c72b54f3-bf93-4847-82a7-873f143583b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommercialProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommercialProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InvestmentCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InvestmentCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MilitaryProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MilitaryProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OpenSourceProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OpenSourceProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/InterfaceTest/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/InterfaceTest/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/InterfaceTest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/InterfaceTest/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/InterfaceTest/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/InterfaceTest/InterfaceTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/InterfaceTest/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P1/Benzinarie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P1/Benzinarie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P1/Masina.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P1/Masina.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P1/makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P2/Echipa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P2/Echipa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P2/Jucator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P2/Jucator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P2/makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P3/Desen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P3/Desen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P3/Figura.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P3/Figura.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P3/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P3/makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P4/Angajat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P4/Angajat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P4/Firma.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P4/Firma.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P4/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P4/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P4/makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P5/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P5/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P5/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P5/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P5/Portofel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P5/Portofel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P5/makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P6/Destinatar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P6/Destinatar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P6/Grup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P6/Grup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P6/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P6/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P6/Utilizator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P6/Utilizator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/P6/makefile" beforeDir="false" />
-    </list>
+    <list default="true" id="c72b54f3-bf93-4847-82a7-873f143583b2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,6 +77,7 @@
       <workItem from="1732555184109" duration="2321000" />
       <workItem from="1732810811677" duration="145000" />
       <workItem from="1733340967047" duration="817000" />
+      <workItem from="1733410939113" duration="96000" />
     </task>
     <servers />
   </component>
