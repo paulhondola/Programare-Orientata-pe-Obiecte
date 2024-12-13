@@ -5,16 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d9f6561-5d30-40b2-9037-0af0f88a736e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colectie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intreg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../9/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -36,13 +44,19 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2otUBxx3TGspipLGhmsE0KjkKyj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Colectie.executor": "Run",
+    "Application.Intreg.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Sir.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -53,7 +67,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
       </set>
     </attachedChunks>
   </component>
@@ -67,6 +81,8 @@
       <updated>1731688233662</updated>
       <workItem from="1731688234662" duration="4000" />
       <workItem from="1733753218725" duration="1444000" />
+      <workItem from="1733935798370" duration="38000" />
+      <workItem from="1733937906494" duration="3242000" />
     </task>
     <servers />
   </component>
