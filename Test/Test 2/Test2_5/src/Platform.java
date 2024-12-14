@@ -1,22 +1,23 @@
 import java.util.ArrayList;
+
 public class Platform {
     private static final int MAX_USERS = 1000;
     private ArrayList<User> users = new ArrayList<>(1000);
 
-    public boolean addUser(User user){
-        if(users.size() >= MAX_USERS)
+    public boolean addUser(User user) {
+        if (users.size() >= MAX_USERS)
             return false;
 
         users.add(user);
         return true;
     }
 
-    public User getVIPUser(int minutesViewed){
+    public User getVIPUser(int minutesViewed) {
         double maxIncome = -1;
         User vipUser = null;
-        for(User user: users) {
+        for (User user : users) {
             double income = user.getIncome(minutesViewed);
-            if(maxIncome < income){
+            if (maxIncome < income) {
                 maxIncome = income;
                 vipUser = user;
             }

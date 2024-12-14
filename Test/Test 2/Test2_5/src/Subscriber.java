@@ -1,4 +1,4 @@
-public class Subscriber extends User{
+public class Subscriber extends User {
     private static final double INCOME_RATE = 1.5;
     private int subscriptionLevel;
 

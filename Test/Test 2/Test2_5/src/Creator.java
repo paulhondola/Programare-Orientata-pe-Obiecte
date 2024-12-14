@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class Creator extends User{
+public class Creator extends User {
     private LinkedList<Subscriber> subscribers = new LinkedList<>();
 
     public Creator(String username) {
@@ -22,7 +22,7 @@ public class Creator extends User{
 
     @Override
     public String toString() {
-        String res =  "Username: " + super.toString() + " - creator - (";
+        String res = "Username: " + super.toString() + " - creator - (";
         for (Subscriber subscriber : subscribers) {
             res += subscriber + ", ";
         }
