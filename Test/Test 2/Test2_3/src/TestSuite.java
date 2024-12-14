@@ -37,12 +37,6 @@ public class TestSuite extends Test{
 
     @Override
     public String toString() {
-        String res = "TestSuite(";
-        for (Test test : tests) {
-            res += test.toString() + ", ";
-        }
-        res = res.substring(0, res.length() - 2);
-        res += ")";
-        return res;
+        return "TestSuite: " + tests;
     }
 }

@@ -20,7 +20,8 @@ public class StatisticaNumarAparitii extends Statistica{
     }
 
     private void actualizeazaJurnal(String secventa) {
-        String jurnalActualizat = "In secventa " + secventa + " apar " + getNumarAparitii() + " elemente din secventa " + this.secventa + "\n";
+        String jurnalActualizat = "In secventa " + secventa + " apar " + getNumarAparitii() + " elemente din secventa" +
+                " " + this.secventa;
         setJurnal(jurnalActualizat);
     }
 

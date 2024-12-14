@@ -22,13 +22,7 @@ public class Creator extends User {
 
     @Override
     public String toString() {
-        String res = "Username: " + super.toString() + " - creator - (";
-        for (Subscriber subscriber : subscribers) {
-            res += subscriber + ", ";
-        }
-        res = res.substring(0, res.length() - 2);
-        res += ")";
-        return res;
+        return "Username: " + super.toString() + " - creator - Subscribers: " + subscribers;
     }
 
     public static void main(String[] args) {

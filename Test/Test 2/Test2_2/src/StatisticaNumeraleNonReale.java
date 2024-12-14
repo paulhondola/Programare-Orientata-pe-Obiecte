@@ -1,10 +1,6 @@
 import java.util.HashSet;
 public class StatisticaNumeraleNonReale extends Statistica{
 
-    public StatisticaNumeraleNonReale() {
-        super();
-    }
-
     @Override
     public void calculeaza(HashSet<String> secventa) {
         for(String s: secventa) {
@@ -20,7 +16,7 @@ public class StatisticaNumeraleNonReale extends Statistica{
     }
 
     private void actualizeazaJurnal(String secventa) {
-        String jurnalActualizat = "In secventa " + secventa + " avem " + getNumarAparitii() + " siruri ce nu sunt numere reale\n";
+        String jurnalActualizat = "In secventa " + secventa + " avem " + getNumarAparitii() + " siruri ce nu sunt numere reale";
         setJurnal(jurnalActualizat);
     }
 

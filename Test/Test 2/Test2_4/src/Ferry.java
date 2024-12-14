@@ -19,11 +19,8 @@ public class Ferry {
 
     @Override
     public String toString() {
-        String result = "Ferry Weight Limit: " + weightLimit + ", Currently Carrying: " + currentWeight + "\n";
-        for (Vehicle vehicle : vehicles) {
-            result += vehicle + "\n";
-        }
-        return result;
+       return "Ferry Weight Limit: " + weightLimit + ", Current Weight: " + currentWeight + ", Vehicles " +
+                "on ferry: " + vehicles;
     }
 
     public static void main(String[] args) {

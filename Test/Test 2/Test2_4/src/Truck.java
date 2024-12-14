@@ -22,13 +22,7 @@ public class Truck extends Vehicle {
 
     @Override
     public String toString() {
-        String result = "Truck: " + super.toString() + "\n\t(";
-        for (Car car : cars) {
-            result += car.toString() + ", ";
-        }
-        result = result.substring(0, result.length() - 2);
-        result += ")";
-        return result;
+        return "Truck: " + super.toString() + ", Cars in truck: " + cars;
     }
 
     public static void main(String[] args) {
