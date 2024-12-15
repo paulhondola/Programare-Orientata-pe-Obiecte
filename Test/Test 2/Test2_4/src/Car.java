@@ -8,7 +8,7 @@ public class Car extends Vehicle{
 
     @Override
     public double getTotalWeight() {
-        return getVehicleWeight() + passengerWeight;
+        return super.getTotalWeight() + passengerWeight;
     }
 
     @Override

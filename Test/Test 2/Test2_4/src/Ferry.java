@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 public class Ferry {
     private LinkedList<Vehicle> vehicles = new LinkedList<>();
-    private double weightLimit;
+    private final double weightLimit;
     private double currentWeight;
 
     public Ferry(double weightLimit) {

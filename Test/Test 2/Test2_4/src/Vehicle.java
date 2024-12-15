@@ -1,7 +1,6 @@
-abstract public class Vehicle {
+abstract public class Vehicle implements Transportable{
     private String registrationNumber;
     private double vehicleWeight;
-    abstract public double getTotalWeight(); // Its own weight plus the weight of cargo carried
 
     public Vehicle(String registrationNumber, double vehicleWeight) {
         this.registrationNumber = registrationNumber;
@@ -12,12 +11,13 @@ abstract public class Vehicle {
         return registrationNumber;
     }
 
-    public double getVehicleWeight() {
+    @Override
+    public double getTotalWeight() {
         return vehicleWeight;
     }
 
     @Override
     public String toString() {
-        return "Registration Number: " + registrationNumber + ", Vehicle Weight: " + getVehicleWeight();
+        return "Registration Number: " + registrationNumber + ", Vehicle Weight: " + vehicleWeight;
     }
 }

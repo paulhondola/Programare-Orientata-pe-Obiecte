@@ -13,7 +13,7 @@ public class Truck extends Vehicle {
 
     @Override
     public double getTotalWeight() {
-        double totalWeight = getVehicleWeight();
+        double totalWeight = super.getTotalWeight();
         for (Car car : cars) {
             totalWeight += car.getTotalWeight();
         }
@@ -22,7 +22,10 @@ public class Truck extends Vehicle {
 
     @Override
     public String toString() {
-        return "Truck: " + super.toString() + ", Cars in truck: " + cars;
+        return "Truck: " + super.toString() + ", Total Weight: " + getTotalWeight() +
+                ", Cars in" +
+                " " +
+                "truck: " + cars;
     }
 
     public static void main(String[] args) {
