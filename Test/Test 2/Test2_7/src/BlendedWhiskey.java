@@ -1,6 +1,7 @@
 import java.util.LinkedList;
 
-public class BlendedWhiskey extends Whiskey {
+class BlendedWhiskey extends AbstractWhiskey {
+
     private LinkedList<Whiskey> whiskeys = new LinkedList<>();
 
     public BlendedWhiskey(String name) {

@@ -1,4 +1,4 @@
-abstract public class SingleMaltWhiskey extends Whiskey {
+abstract public class SingleMaltWhiskey extends AbstractWhiskey {
     private static final int CALORIES_PER_ML = 5;
     private double alcoholPercentage;
 
