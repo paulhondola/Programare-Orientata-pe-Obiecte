@@ -1,4 +1,4 @@
-public class Car extends Vehicle{
+public class Car extends AbstractVehicle{
     private double passengerWeight;
 
     public Car(String registrationNumber, double vehicleWeight, double passengerWeight) {

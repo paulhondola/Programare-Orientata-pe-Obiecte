@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class Truck extends Vehicle {
+public class Truck extends AbstractVehicle {
     private LinkedList<Car> cars = new LinkedList<>();
 
     public Truck(String registrationNumber, double vehicleWeight) {
