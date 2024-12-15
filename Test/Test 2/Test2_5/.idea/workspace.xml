@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5108e52-23db-46f3-95ac-10db17fc93f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Test2_2/src/StatisticaNumarAparitii.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2_2/src/StatisticaNumarAparitii.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test2_2/src/StatisticaNumeraleNonReale.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2_2/src/StatisticaNumeraleNonReale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test2_3/src/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2_3/src/TestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -85,6 +86,7 @@
       <workItem from="1734174936059" duration="2952000" />
       <workItem from="1734178553499" duration="110000" />
       <workItem from="1734183561796" duration="61000" />
+      <workItem from="1734274489709" duration="531000" />
     </task>
     <servers />
   </component>

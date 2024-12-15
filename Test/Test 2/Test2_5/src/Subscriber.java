@@ -1,4 +1,4 @@
-public class Subscriber extends User {
+public class Subscriber extends AbstractUser {
     private static final double INCOME_RATE = 1.5;
     private int subscriptionLevel;
 
@@ -8,7 +8,7 @@ public class Subscriber extends User {
     }
 
     @Override
-    double getIncome(int minutesViewed) {
+    public double getIncome(int minutesViewed) {
         return INCOME_RATE * subscriptionLevel * minutesViewed;
     }
 

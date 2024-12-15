@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class Creator extends User {
+public class Creator extends AbstractUser {
     private LinkedList<Subscriber> subscribers = new LinkedList<>();
 
     public Creator(String username) {
