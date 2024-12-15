@@ -2,7 +2,12 @@ import java.util.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        TestSuite ts = new TestSuite(new LinkedList<Test>());
+
+        IntegrationTest it = new IntegrationTest("Integration Test 0", 10);
+        LinkedList<Test> tests = new LinkedList<>();
+        tests.add(it);
+
+        TestSuite ts = new TestSuite(tests);
 
         try {
             boolean flag = ts.addNewIntegrationTest("Integration Test 1", 5);

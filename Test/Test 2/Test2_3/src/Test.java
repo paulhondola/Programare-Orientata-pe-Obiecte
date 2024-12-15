@@ -1,3 +1,3 @@
-abstract public class Test {
-    abstract public int getTestsRun();
+public interface Test {
+     int getTestsRun();
 }

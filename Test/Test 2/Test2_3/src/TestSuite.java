@@ -1,8 +1,9 @@
 import java.util.LinkedList;
-public class TestSuite extends Test{
+public class TestSuite implements Test{
     private LinkedList<Test> tests;
 
-    public TestSuite(LinkedList<Test> tests) {
+    public TestSuite(LinkedList<Test> tests) throws WrongQualityIndicatorException,
+            WrongComponentComplexityIndicatorException {
         this.tests = tests;
     }
 

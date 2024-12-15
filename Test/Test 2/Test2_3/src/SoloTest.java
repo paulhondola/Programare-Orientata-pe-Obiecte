@@ -1,4 +1,4 @@
-abstract public class SoloTest extends Test {
+abstract public class SoloTest implements Test {
     private String name;
     private int qualityIndex;
 
