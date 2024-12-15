@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class ComposedTask extends Task{
+public class ComposedTask extends AbstractTask{
     private LinkedList<SimpleTask> simpleTasks;
 
     public ComposedTask(String name, LinkedList<SimpleTask> simpleTaskstasks) {

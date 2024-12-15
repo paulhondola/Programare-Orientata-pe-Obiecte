@@ -1,4 +1,4 @@
-public class SimpleTask extends Task{
+public class SimpleTask extends AbstractTask{
 
     private double secondsToExecute;
 
