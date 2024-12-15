@@ -14,17 +14,16 @@ public class Utilizator extends Destinatar{
     }
 
     public void trimite(Destinatar d, String mesaj){
-        this.receptioneaza(this, "Trimis catre " + d.getNume() + " mesajul: " + mesaj + "\n");
+        jurnal += "Trimis catre " + d.getNume() + " mesajul: " + mesaj + "\n";
         d.receptioneaza(this, mesaj);
     }
 
     @Override
     public boolean equals(Object o){
-        if(!(o instanceof Utilizator)){
+        if(!(o instanceof Utilizator u)){
             return false;
         }
 
-        Utilizator u = (Utilizator) o;
         return this.getNume().equals(u.getNume());
     }
 

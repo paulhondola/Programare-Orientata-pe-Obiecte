@@ -11,13 +11,8 @@ public class StatisticaNumeraleNonReale extends Statistica{
             }
         }
 
-        actualizeazaJurnal(secventa.toString());
+        actualizeazaJurnal("In secventa " + secventa + " avem " + getNumarAparitii() + " siruri ce nu sunt numere reale");
         setNumarAparitii(0);
-    }
-
-    private void actualizeazaJurnal(String secventa) {
-        String jurnalActualizat = "In secventa " + secventa + " avem " + getNumarAparitii() + " siruri ce nu sunt numere reale";
-        setJurnal(jurnalActualizat);
     }
 
     public static void main(String[] args) {

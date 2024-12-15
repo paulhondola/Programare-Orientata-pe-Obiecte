@@ -1,21 +1,22 @@
 import java.util.HashSet;
+
 abstract public class Statistica {
-    private String jurnal;
-    private int numarAparitii;
+    private String jurnal = "";
+    private int numarAparitii = 0;
 
-    abstract public void calculeaza(HashSet<String> secventa);
-
-    protected int setNumarAparitii(int numarAparitii) {
-        return this.numarAparitii = numarAparitii;
+    protected void setNumarAparitii(int numarAparitii) {
+        this.numarAparitii = numarAparitii;
     }
 
-    protected String setJurnal(String jurnal) {
-        return this.jurnal = jurnal;
-    }
-
-    public int getNumarAparitii() {
+    protected int getNumarAparitii() {
         return numarAparitii;
     }
+
+    protected String actualizeazaJurnal(String jurnalNou) {
+        return jurnal += jurnalNou + "\n";
+    }
+
+    abstract public void calculeaza(HashSet<String> secventa);
 
     public String toString() {
         return jurnal;

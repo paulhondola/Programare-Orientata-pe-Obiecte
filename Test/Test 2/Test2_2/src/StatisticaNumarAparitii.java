@@ -15,14 +15,8 @@ public class StatisticaNumarAparitii extends Statistica{
             if (this.secventa.contains(s))
                 setNumarAparitii(getNumarAparitii() + 1);
 
-        actualizeazaJurnal(secventa.toString());
+        actualizeazaJurnal("In secventa " + secventa + " avem " + getNumarAparitii() + " elemente comune cu secventa " + this.secventa);
         setNumarAparitii(0);
-    }
-
-    private void actualizeazaJurnal(String secventa) {
-        String jurnalActualizat = "In secventa " + secventa + " apar " + getNumarAparitii() + " elemente din secventa" +
-                " " + this.secventa;
-        setJurnal(jurnalActualizat);
     }
 
     public static void main(String[] args) {
@@ -47,6 +41,13 @@ public class StatisticaNumarAparitii extends Statistica{
 
         StatisticaNumarAparitii statistica = new StatisticaNumarAparitii(secventa);
         statistica.calculeaza(secventa2);
+        System.out.println(statistica);
+
+        HashSet<String> secventa3 = new HashSet<>(4);
+        secventa3.add("ana");
+        secventa3.add("mere");
+
+        statistica.calculeaza(secventa3);
         System.out.println(statistica);
     }
 }
