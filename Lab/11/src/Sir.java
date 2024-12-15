@@ -1,4 +1,4 @@
-public class Sir extends Tip{
+public class Sir implements Tip{
     private String valoare;
 
     public Sir(String valoare) {

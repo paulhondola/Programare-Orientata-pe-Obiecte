@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d9f6561-5d30-40b2-9037-0af0f88a736e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Colectie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Intreg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colectie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colectie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intreg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intreg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +50,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Colectie.executor": "Run",
-    "Application.Intreg.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Sir.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/paulhondola/Faculta/Programare-Orientata-pe-Obiecte/Lab/11/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Colectie.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Intreg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sir.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/paulhondola/Faculta/Programare-Orientata-pe-Obiecte/Lab/11/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,6 +82,7 @@
       <workItem from="1733753218725" duration="1444000" />
       <workItem from="1733935798370" duration="38000" />
       <workItem from="1733937906494" duration="3242000" />
+      <workItem from="1734279097020" duration="72000" />
     </task>
     <servers />
   </component>

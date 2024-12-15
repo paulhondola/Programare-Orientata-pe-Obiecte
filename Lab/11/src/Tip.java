@@ -1,4 +1,4 @@
-public abstract class Tip {
-    abstract public String getTip();
-    abstract public String toString();
+public interface Tip {
+    String getTip();
+    String toString();
 }

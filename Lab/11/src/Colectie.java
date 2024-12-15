@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Colectie extends Tip{
+public class Colectie implements Tip{
     private List<Tip> colectie = new ArrayList<>();
 
     public Colectie(Tip... t){

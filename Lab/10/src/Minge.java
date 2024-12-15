@@ -59,8 +59,8 @@ class Minge{
         this.x = x;
         this.y = y;
 
-        if(verificaGol()) throw new Gol();
-        if(verificaOut()) throw new Out();
-        if(verificaCorner()) throw new Corner();
+        if(verificaGol()) throw new Gol("Gol la pozitia: " + this);
+        if(verificaOut()) throw new Out("Out la pozitia: " + this);
+        if(verificaCorner()) throw new Corner("Corner la pozitia: " + this);
     }
 }

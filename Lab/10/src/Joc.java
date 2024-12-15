@@ -37,17 +37,17 @@ public class Joc {
                 X_VECHI = minge.getX(); Y_VECHI = minge.getY();
                 minge.suteaza(cg.generateX(), cg.generateY());
             } catch (Gol e) {
-                System.out.println("Gol: " + minge);
+                System.out.println(e.getMessage());
                 echipa.gol();
                 minge = new Minge(X_START, Y_START);
                 X_VECHI = minge.getX(); Y_VECHI = minge.getY();
                 actualizeazaScor();
             } catch (Out e) {
-                System.out.println("Out: " + minge);
+                System.out.println(e.getMessage());
                 echipa.out();
                 minge = new Minge(X_VECHI, Y_VECHI);
             } catch (Corner e) {
-                System.out.println("Corner: " + minge);
+                System.out.println(e.getMessage());
                 echipa.corner();
                 minge.mutaInColt();
                 X_VECHI = minge.getX(); Y_VECHI = minge.getY();

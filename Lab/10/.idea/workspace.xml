@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="770c53d7-a837-42b9-97f9-114b431680e1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Corner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Corner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Joc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Joc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Minge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Minge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Out.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Out.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11/src/Colectie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../11/src/Colectie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11/src/Intreg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../11/src/Intreg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11/src/Sir.java" beforeDir="false" afterPath="$PROJECT_DIR$/../11/src/Sir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11/src/Tip.java" beforeDir="false" afterPath="$PROJECT_DIR$/../11/src/Tip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +57,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
       </set>
     </attachedChunks>
   </component>
@@ -65,6 +74,7 @@
       <workItem from="1733154247294" duration="12000" />
       <workItem from="1733411040659" duration="100000" />
       <workItem from="1733411199473" duration="102000" />
+      <workItem from="1734279173249" duration="262000" />
     </task>
     <servers />
   </component>

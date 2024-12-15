@@ -1,4 +1,4 @@
-public class Intreg extends Tip {
+public class Intreg implements Tip {
     private int valoare;
 
     public Intreg(int valoare) {
