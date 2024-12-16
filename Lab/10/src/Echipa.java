@@ -1,31 +1,31 @@
-class Echipa{
+class Echipa {
 
     private String nume;
     private int numarGoluri;
     private int numarCornere;
     private int numarOuturi;
 
-    public Echipa(String nume){
+    public Echipa(String nume) {
         this.nume = nume;
     }
 
-    public String toString(){
+    public String toString() {
         return nume + " | Goluri: " + numarGoluri + " | Cornere: " + numarCornere + " | Outuri: " + numarOuturi;
     }
 
-    public String getNume(){
+    public String getNume() {
         return nume;
     }
 
-    public void gol(){
+    public void gol() {
         numarGoluri++;
     }
 
-    public void corner(){
+    public void corner() {
         numarCornere++;
     }
 
-    public void out(){
+    public void out() {
         numarOuturi++;
     }
 
