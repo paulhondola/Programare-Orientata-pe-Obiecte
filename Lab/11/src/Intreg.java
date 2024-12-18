@@ -17,16 +17,16 @@ public class Intreg implements Tip {
 
     @Override
     public boolean equals(Object o){
-        if(!(o instanceof Intreg)){
+        if(!(o instanceof Intreg i)){
             return false;
         }
 
-        return this.valoare == ((Intreg) o).valoare;
+        return this.valoare == i.valoare;
     }
 
     public static void main(String[] args) {
         Intreg i = new Intreg(5);
         System.out.println(i.getTip());
-        System.out.println(i.toString());
+        System.out.println(i);
     }
 }

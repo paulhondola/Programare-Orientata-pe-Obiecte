@@ -17,11 +17,11 @@ public class Sir implements Tip{
 
     @Override
     public boolean equals(Object o){
-        if(!(o instanceof Sir)){
+        if(!(o instanceof Sir s)){
             return false;
         }
 
-        return this.valoare.equals(((Sir) o).valoare);
+        return this.valoare.equals(s.valoare);
     }
 
     public static void main(String[] args) {

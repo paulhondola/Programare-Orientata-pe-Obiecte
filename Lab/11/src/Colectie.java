@@ -1,7 +1,8 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Colectie implements Tip{
-    private List<Tip> colectie = new ArrayList<>();
+    private ArrayList<Tip> colectie = new ArrayList<>();
 
     public Colectie(Tip... t){
         for(Tip tip : t){
@@ -16,19 +17,7 @@ public class Colectie implements Tip{
 
     @Override
     public String toString() {
-        String res = "(";
-
-        Iterator it = colectie.iterator();
-        while(it.hasNext())
-        {
-            res += it.next().toString();
-            if(it.hasNext()){
-                res += ", ";
-            }
-        }
-
-        res += ")";
-        return res;
+        return "Colectie: " + colectie;
     }
 
     public void add(Tip t){
@@ -37,11 +26,9 @@ public class Colectie implements Tip{
 
     @Override
     public boolean equals(Object o){
-        if(!(o instanceof Colectie)){
+        if(!(o instanceof Colectie c)){
             return false;
         }
-
-        Colectie c = (Colectie) o;
 
         // verificare marime
         if(c.colectie.size() != this.colectie.size()){

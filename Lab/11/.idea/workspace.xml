@@ -8,8 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Colectie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colectie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Intreg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intreg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,7 @@
       <workItem from="1733935798370" duration="38000" />
       <workItem from="1733937906494" duration="3242000" />
       <workItem from="1734279097020" duration="72000" />
+      <workItem from="1734348769955" duration="2289000" />
     </task>
     <servers />
   </component>

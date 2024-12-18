@@ -13,6 +13,12 @@ public class Main {
         Colectie c3 = new Colectie(i1, s1, c);
         Colectie c4 = new Colectie(i2, s2, c);
 
+        System.out.println(c);
+        System.out.println(c1);
+        System.out.println(c2);
+        System.out.println(c3);
+        System.out.println(c4);
+
         System.out.println(c1.equals(c2)); // true
         System.out.println(c3.equals(c4)); // true
         System.out.println(c1.equals(c3)); // false
